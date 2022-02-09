@@ -30,18 +30,18 @@ https://geodacenter.github.io/data-and-lab/KingCounty-HouseSales2015/
 Dataset ZipCode:
 https://gis-kingcounty.opendata.arcgis.com/datasets/zipcodes-for-king-county-and-surrounding-area-shorelines-zipcode-shore-area/explore?location=47.509950%2C-121.477600%2C8.52
 """
-
+#%%
 from google.colab import drive
 drive.mount('/content/drive')
-
+#%%
 """# Importando Bibliotecas"""
-
+#%%
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy.stats as stats
-
+#%%
 """#Importando Dataframes"""
 
 df = pd.read_csv('/content/drive/MyDrive/DEX03/Deliverable 01/DATA/kc_house_data.csv')
